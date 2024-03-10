@@ -1,5 +1,8 @@
 .terem__search {
     input[type="search"] {
         width: 20rem;
+        border: 1px solid var(--terem-background);
+        color: var(--terem-font-primary);
+        background: var(--terem-background-panel);
     }    
 }

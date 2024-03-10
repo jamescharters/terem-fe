@@ -17,7 +17,7 @@ export class IndexPage {
     }
 
     public async goTo() {
-        await this.page.goto(`/`);
+        await this.page.goto(`/`, { waitUntil: "networkidle" });
     }
 }
 
