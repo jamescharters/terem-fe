@@ -1,3 +1,9 @@
+@import "@/brand/layout";
+
 .container {
     margin: 5rem;
+
+    @media screen and (max-width: $breakpoint-md) {
+        margin: 1rem;
+    }
 }
