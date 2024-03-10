@@ -3,11 +3,13 @@
     border: 1px solid var(--terem-background);
     display: flex;
     flex-direction: column;
-    flex: 0 0 300px;
+    flex: 0 0 350px;
 
     img {
         flex: 1;
         object-fit: cover;
+        max-height: 200px;
+        overflow-clip-margin: unset; /* To reduce scaling artifacts from object-fit */
     }
 
     div {
