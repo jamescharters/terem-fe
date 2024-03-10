@@ -4,6 +4,7 @@ import { IndexLoaderDataType } from "@/loaders/Index.loader";
 import { TileItem } from "@/types/TileItem";
 import { useLoaderData } from "react-router-dom";
 import { Search } from "@/components/search/Search";
+import { Featured } from "@/components/featured/Featured";
 
 export const Component: React.FC<React.PropsWithChildren> = () => {
     const { featured, popular } = useLoaderData() as IndexLoaderDataType;
@@ -23,13 +24,15 @@ export const Component: React.FC<React.PropsWithChildren> = () => {
         },
         [featured],
     );
-    
+
     return (
         <div className={PageStyles.dashboard}>
             <header>
                 <Search onSearch={onSearchChange} />
             </header>
-            <main></main>
+            <main>
+                <Featured items={featured} />
+            </main>
         </div>
     );
 };

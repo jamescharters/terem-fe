@@ -1,0 +1,66 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Featured > renders correctly 1`] = `
+<DocumentFragment>
+  <section
+    class="_container_7e7544"
+  >
+    <h3>
+      Featured
+    </h3>
+    <div
+      class="_items_7e7544"
+    >
+      <div
+        class="_container_740b7c"
+        style="background-image: url(http://a.b);"
+      >
+        <div>
+          <h4>
+            A Fake Title
+          </h4>
+          <p>
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-location-pin fa-1x "
+              data-icon="location-pin"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 384 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+                fill="currentColor"
+              />
+            </svg>
+            <span>
+              Sydney, Australia
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Featured > renders correctly if there are no items 1`] = `
+<DocumentFragment>
+  <section
+    class="_container_7e7544"
+  >
+    <h3>
+      Featured
+    </h3>
+    <div
+      class="_items_7e7544"
+    >
+      <p>
+        Sorry, there are no feature items available.
+      </p>
+    </div>
+  </section>
+</DocumentFragment>
+`;
