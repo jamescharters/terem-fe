@@ -7,6 +7,7 @@
     img {
         height: 100%;
         object-fit: cover;
+        overflow-clip-margin: unset; /* To reduce scaling artifacts from object-fit */
     }
 
     div {
