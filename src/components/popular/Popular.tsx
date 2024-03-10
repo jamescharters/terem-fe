@@ -34,6 +34,14 @@ export const Featured: React.FC<FeaturedProps> = (props) => {
             });
     }, [emblaApi]);
 
+    useEffect(() => {
+        if (emblaApi) {
+            emblaApi.reInit();
+            setCanScrollPrev(emblaApi.canScrollPrev());
+            setCanScrollNext(emblaApi.canScrollNext());
+        }
+    }, [emblaApi, props.items]);
+
     return (
         <section className={Styles.container}>
             <h3 data-testid="heading-popular-items">Popular around you</h3>
