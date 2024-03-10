@@ -1,9 +1,15 @@
+@import "@/brand/layout";
+
 .container {
     background-size: cover;
     border: 1px solid var(--terem-background);
     display: flex;
     flex-direction: column;
     flex: 0 0 350px;
+
+    @media screen and (max-width: $breakpoint-md) {
+        flex: 0 0 300px;
+    }
 
     img {
         flex: 1;
