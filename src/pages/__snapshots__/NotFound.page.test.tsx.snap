@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NotFound > renders the component 1`] = `
+<DocumentFragment>
+  <h1>
+    404
+  </h1>
+  <p>
+    You should not be here, bad things have happened.
+  </p>
+</DocumentFragment>
+`;
