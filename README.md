@@ -4,6 +4,8 @@ This repository contains code for the Terem front end application test.
 
 ## Getting started
 
+The application was developed using the `vite@latest` template on macOS Sonoma, with Node v21.4.0.
+
 1. Clone the repository, then switch to the checkout directory
 2. Run `pnpm i` to install dependencies
 3. Run `pnpm dev` to start the development server and browse the application
