@@ -2,6 +2,8 @@
 
 This repository contains code for the Terem front end application test.
 
+![image](https://github.com/jamescharters/terem-fe/assets/6174260/634e812e-aee1-41e9-983c-3b7b18620888)
+
 ## Getting started
 
 The application was developed using the `vite@latest` template on macOS Sonoma, with Node v21.4.0.
