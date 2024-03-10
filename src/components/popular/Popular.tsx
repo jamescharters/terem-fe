@@ -27,12 +27,6 @@ export const Featured: React.FC<FeaturedProps> = (props) => {
     }, [emblaApi]);
 
     useEffect(() => {
-        if (emblaApi) {
-            console.log(emblaApi.slideNodes());
-        }
-    }, [emblaApi]);
-
-    useEffect(() => {
         if (emblaApi)
             emblaApi.on("settle", () => {
                 setCanScrollPrev(emblaApi.canScrollPrev());
