@@ -10,7 +10,7 @@ export type FeaturedProps = {
 export const Featured: React.FC<FeaturedProps> = (props) => {
     return (
         <section className={Styles.container}>
-            <h3>Featured</h3>
+            <h3 data-testid="heading-featured-items">Featured</h3>
             <div className={Styles.items}>
                 {props.items.length === 0 ? (
                     <p>Sorry, there are no featured items available.</p>

@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# Terem Front End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains code for the Terem front end application test.
 
-Currently, two official plugins are available:
+## Getting started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository, then switch to the checkout directory
+2. Run `pnpm i` to install dependencies
+3. Run `pnpm dev` to start the development server and browse the application
 
-## Expanding the ESLint configuration
+## Testing
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Unit and End-to-End (e2e) tests are provided, using `vitest` and `playwright` respectively.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Run the unit tests via `pnpm test`
+2. Run the e2e tests via `pnpm test:e2e` or `pnpm test:e2e:ui` (if you wish to see the Playwright GUI)

@@ -42,7 +42,7 @@ export const Featured: React.FC<FeaturedProps> = (props) => {
 
     return (
         <section className={Styles.container}>
-            <h3>Popular around you</h3>
+            <h3 data-testid="heading-popular-items">Popular around you</h3>
             {props.items.length === 0 ? (
                 <p>Sorry, no items matched your search.</p>
             ) : (
