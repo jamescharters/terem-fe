@@ -2,6 +2,9 @@ import { TileItem } from "@/types/TileItem";
 import { LoaderFunction } from "react-router-dom";
 
 export const IndexLoader = (async () => {
+    // DEVNOTE: Mocked API responses here, as I did not have time to host my own APIs. It would be simple to
+    //          refactor here to return Promises from fetch() to appropriate external URLs
+
     const getFeaturedItems = await Promise.resolve([
         {
             title: "Middle Harbour Yacht Club",
