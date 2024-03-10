@@ -1,0 +1,24 @@
+
+:root {
+    --terem-background: #e1e1e1;
+    --terem-background-panel: #ffffff;
+    --terem-font-primary: #2f516d;
+    --terem-font-secondary: #899bb2;
+    --terem-font-caret: #444444;
+    --terem-font-family: 'Open Sans', system-ui, roboto, 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    color-scheme: light dark;
+    font-synthesis: none;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-size-adjust: 100%;
+
+    background-color: var(--terem-background);
+    color: var(--terem-font-primary);
+
+    font-family: var(--terem-font-family);
+}
