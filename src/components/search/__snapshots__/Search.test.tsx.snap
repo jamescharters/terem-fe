@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Search > renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="_terem__search_6ac984"
+  >
+    <input
+      data-testid="input-search"
+      placeholder="Search for..."
+      type="search"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;
