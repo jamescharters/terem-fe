@@ -79,10 +79,10 @@ export const IndexLoader = (async () => {
 
     const getPopularItems = await Promise.resolve([
         {
-            title: "Lake Glenbawn",
+            title: "Melbourne",
             imageUrl: "https://previews.imagelibrary.me/7474/hero/59ba4224-029c-442a-b835-d71a06037305.webp",
             linkUrl: "#",
-            location: "NSW, Australia",
+            location: "Victoria, Australia",
         },
         {
             title: "Whitsundays",
@@ -107,7 +107,7 @@ export const IndexLoader = (async () => {
             imageUrl: "https://previews.imagelibrary.me/7474/hero/03387c98-2db1-43e8-aecf-e15a4e399bf4.webp",
             linkUrl: "#",
             location: "Western Australia",
-        }
+        },
     ]);
 
     return {
@@ -117,8 +117,8 @@ export const IndexLoader = (async () => {
 }) satisfies LoaderFunction;
 
 export type IndexLoaderDataType = {
-    featured: TileItem[]
-    popular: TileItem[]
+    featured: TileItem[];
+    popular: TileItem[];
 };
 
 export default IndexLoader;

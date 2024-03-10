@@ -4,8 +4,11 @@ exports[`PopularItem > renders the component 1`] = `
 <DocumentFragment>
   <div
     class="_container_0cedfc"
-    style="background-image: url(http://a.b);"
   >
+    <img
+      alt="A Fake Title"
+      src="http://a.b"
+    />
     <div>
       <h4>
         A Fake Title

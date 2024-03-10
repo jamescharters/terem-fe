@@ -2,7 +2,9 @@
 
 exports[`NotFound > renders the component 1`] = `
 <DocumentFragment>
-  <h1>
+  <h1
+    data-testid="page-heading"
+  >
     404
   </h1>
   <p>

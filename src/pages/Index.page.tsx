@@ -33,7 +33,7 @@ export const Component: React.FC<React.PropsWithChildren> = () => {
             </header>
             <main>
                 <Popular items={searchResults} />
-                <Featured items={featured} />
+                <Featured items={popular} />
             </main>
         </div>
     );

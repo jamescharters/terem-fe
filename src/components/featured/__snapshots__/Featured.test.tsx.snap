@@ -5,7 +5,9 @@ exports[`Featured > renders correctly 1`] = `
   <section
     class="_container_7e7544"
   >
-    <h3>
+    <h3
+      data-testid="heading-featured-items"
+    >
       Featured
     </h3>
     <div
@@ -13,8 +15,11 @@ exports[`Featured > renders correctly 1`] = `
     >
       <div
         class="_container_740b7c"
-        style="background-image: url(http://a.b);"
       >
+        <img
+          alt="A Fake Title"
+          src="http://a.b"
+        />
         <div>
           <h4>
             A Fake Title
@@ -51,7 +56,9 @@ exports[`Featured > renders correctly if there are no items 1`] = `
   <section
     class="_container_7e7544"
   >
-    <h3>
+    <h3
+      data-testid="heading-featured-items"
+    >
       Featured
     </h3>
     <div

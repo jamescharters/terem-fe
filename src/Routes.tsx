@@ -3,9 +3,10 @@ import { ROUTE_PATHS } from "@/config/routes";
 import { NotFound } from "@/pages/NotFound.page";
 import { DefaultLayout } from "@/layouts/DefaultLayout";
 import { IndexLoader } from "@/loaders/Index.loader";
+import { ErrorBoundary } from "./pages/ErrorBoundary.page";
 
 const routes = createRoutesFromElements(
-    <Route element={<DefaultLayout />}>
+    <Route element={<DefaultLayout />} errorElement={<ErrorBoundary />}>
         <Route index path={ROUTE_PATHS.index} loader={IndexLoader} lazy={() => import("@/pages/Index.page")} />
         <Route path={ROUTE_PATHS.unknown} element={<NotFound />} />
     </Route>,
