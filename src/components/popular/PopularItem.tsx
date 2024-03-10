@@ -5,11 +5,9 @@ import { faLocationPin } from "@fortawesome/free-solid-svg-icons";
 import { TileItem } from "@/types/TileItem";
 
 export const PopularItem: React.FC<TileItem> = (props) => {
-
-    const externalImage = `url(${props.imageUrl})`;
-
     return (
-        <div className={Styles.container} style={{backgroundImage: externalImage}}>
+        <div className={Styles.container}>
+            <img alt={props.title} src={props.imageUrl} />
             <div>
                 <h4>{props.title}</h4>
                 <p>

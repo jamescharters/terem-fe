@@ -11,11 +11,9 @@ export type FeaturedItemProps = {
 };
 
 export const FeaturedItem: React.FC<React.PropsWithChildren<FeaturedItemProps>> = (props) => {
-
-    const externalImage = `url(${props.imageUrl})`;
-
     return (
-        <div className={Styles.container} style={{backgroundImage: externalImage}}>
+        <div className={Styles.container}>
+            <img alt={props.title} src={props.imageUrl} />
             <div>
                 <h4>{props.title}</h4>
                 <p>
