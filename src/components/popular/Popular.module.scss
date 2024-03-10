@@ -1,0 +1,42 @@
+.container {
+    h3 {
+        color: var(--terem-font-primary);
+        font-size: 1em;
+        margin: 0 0 1rem 0;
+    }
+
+    .embla {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .embla__container {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .embla__prev,
+    .embla__next {
+        position: absolute;
+        color: var(--terem-font-caret);
+        background-color: #fff;
+        top: 0;
+        border: 0;
+        width: 30px;
+        height: 100%;
+        opacity: 0.75;
+        z-index: 1000;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .embla__prev {
+        left: 0;
+    }
+
+    .embla__next {
+        right: 0;
+    }
+}

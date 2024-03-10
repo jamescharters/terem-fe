@@ -1,0 +1,29 @@
+.container {
+    background-size: cover;
+    border: 1px solid var(--terem-background);
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    flex: 0 0 300px;
+
+    h4 {
+        color: var(--terem-font-primary);
+        font-size: 0.8rem;
+    }
+
+    div {
+        align-self: flex-end;
+        background-color: var(--terem-background);
+        flex: 1;
+        padding: 0.5rem;
+        
+        p {
+            color: var(--terem-font-secondary);
+            font-size: 0.75rem;
+            span {
+               
+                margin-left: 0.25rem;
+            }
+        }
+    }
+}
