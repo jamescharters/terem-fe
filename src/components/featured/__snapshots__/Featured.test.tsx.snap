@@ -58,7 +58,7 @@ exports[`Featured > renders correctly if there are no items 1`] = `
       class="_items_7e7544"
     >
       <p>
-        Sorry, there are no feature items available.
+        Sorry, there are no featured items available.
       </p>
     </div>
   </section>
