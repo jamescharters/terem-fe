@@ -4,6 +4,38 @@ exports[`Index.loader > returns data 1`] = `
 {
   "featured": [
     {
+      "imageUrl": "https://previews.imagelibrary.me/7474/hero/59ba4224-029c-442a-b835-d71a06037305.webp",
+      "linkUrl": "#",
+      "location": "Victoria, Australia",
+      "title": "Melbourne",
+    },
+    {
+      "imageUrl": "https://previews.imagelibrary.me/7474/hero/26445bf6-3162-4ccd-bf8e-34c2db491921.webp",
+      "linkUrl": "#",
+      "location": "Queensland, Australia",
+      "title": "Whitsundays",
+    },
+    {
+      "imageUrl": "https://previews.imagelibrary.me/7474/hero/dc85f747-f9c4-4ab6-91ee-936d46ed6ded.webp",
+      "linkUrl": "#",
+      "location": "Western Australia",
+      "title": "Kimberley",
+    },
+    {
+      "imageUrl": "https://previews.imagelibrary.me/7474/hero/4b54a15c-4729-49a1-9aa7-85fbc9ab09d6.webp",
+      "linkUrl": "#",
+      "location": "Queensland, Australia",
+      "title": "Cairns",
+    },
+    {
+      "imageUrl": "https://previews.imagelibrary.me/7474/hero/03387c98-2db1-43e8-aecf-e15a4e399bf4.webp",
+      "linkUrl": "#",
+      "location": "Western Australia",
+      "title": "Rottnest Island",
+    },
+  ],
+  "popular": [
+    {
       "imageUrl": "https://previews.imagelibrary.me/7474/hero/97ac0fe2-575c-43b7-bc9a-9a451b45add4.webp",
       "linkUrl": "#",
       "location": "Sydney, AU",
@@ -74,38 +106,6 @@ exports[`Index.loader > returns data 1`] = `
       "linkUrl": "#",
       "location": "Sydney, AU",
       "title": "Pro Performance Boat Ride 3",
-    },
-  ],
-  "popular": [
-    {
-      "imageUrl": "https://previews.imagelibrary.me/7474/hero/59ba4224-029c-442a-b835-d71a06037305.webp",
-      "linkUrl": "#",
-      "location": "Victoria, Australia",
-      "title": "Melbourne",
-    },
-    {
-      "imageUrl": "https://previews.imagelibrary.me/7474/hero/26445bf6-3162-4ccd-bf8e-34c2db491921.webp",
-      "linkUrl": "#",
-      "location": "Queensland, Australia",
-      "title": "Whitsundays",
-    },
-    {
-      "imageUrl": "https://previews.imagelibrary.me/7474/hero/dc85f747-f9c4-4ab6-91ee-936d46ed6ded.webp",
-      "linkUrl": "#",
-      "location": "Western Australia",
-      "title": "Kimberley",
-    },
-    {
-      "imageUrl": "https://previews.imagelibrary.me/7474/hero/4b54a15c-4729-49a1-9aa7-85fbc9ab09d6.webp",
-      "linkUrl": "#",
-      "location": "Queensland, Australia",
-      "title": "Cairns",
-    },
-    {
-      "imageUrl": "https://previews.imagelibrary.me/7474/hero/03387c98-2db1-43e8-aecf-e15a4e399bf4.webp",
-      "linkUrl": "#",
-      "location": "Western Australia",
-      "title": "Rottnest Island",
     },
   ],
 }

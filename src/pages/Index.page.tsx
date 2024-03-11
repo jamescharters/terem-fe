@@ -14,16 +14,16 @@ export const Component: React.FC<React.PropsWithChildren> = () => {
     const onSearchChange = useCallback(
         (queryText: string) => {
             if (!queryText) {
-                setSearchResults(featured);
+                setSearchResults(popular);
                 return;
             }
 
             // DEVNOTE: this is deliberately naive. A fuzzy search library like Fuse.js may also be appropriate
-            const filtered = featured.filter((item) => item.title.toLowerCase().includes(queryText.toLocaleLowerCase()));
+            const filtered = popular.filter((item) => item.title.toLowerCase().includes(queryText.toLowerCase()));
 
             setSearchResults(filtered);
         },
-        [featured],
+        [popular],
     );
 
     return (
@@ -33,7 +33,7 @@ export const Component: React.FC<React.PropsWithChildren> = () => {
             </header>
             <main>
                 <Popular items={searchResults} />
-                <Featured items={popular} />
+                <Featured items={featured} />
             </main>
         </div>
     );
