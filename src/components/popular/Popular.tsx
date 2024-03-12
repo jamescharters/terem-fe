@@ -15,6 +15,7 @@ export const Featured: React.FC<FeaturedProps> = (props) => {
     const [canScrollNext, setCanScrollNext] = useState(true);
 
     const [emblaRef, emblaApi] = useEmblaCarousel({
+        align: "start",
         loop: false,
     });
 
