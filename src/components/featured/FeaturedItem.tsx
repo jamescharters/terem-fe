@@ -2,15 +2,9 @@ import React from "react";
 import { faLocationPin } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Styles from "./FeaturedItem.module.scss";
+import { TileItem } from "@/types/TileItem";
 
-export type FeaturedItemProps = {
-    title: string;
-    location: string;
-    imageUrl: string;
-    linkUrl: string;
-};
-
-export const FeaturedItem: React.FC<React.PropsWithChildren<FeaturedItemProps>> = (props) => {
+export const FeaturedItem: React.FC<TileItem> = (props) => {
     return (
         <div className={Styles.container}>
             <img alt={props.title} src={props.imageUrl} />
