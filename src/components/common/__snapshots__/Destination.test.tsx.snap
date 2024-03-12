@@ -1,9 +1,9 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`FeaturedItem > renders correctly 1`] = `
+exports[`Destination > renders correctly 1`] = `
 <DocumentFragment>
   <div
-    class="_container_5fb49a"
+    class="_container_37bc77 fooClassName"
   >
     <img
       alt="A Fake Title"

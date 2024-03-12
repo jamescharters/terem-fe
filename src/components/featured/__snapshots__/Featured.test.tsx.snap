@@ -14,7 +14,7 @@ exports[`Featured > renders correctly 1`] = `
       class="_items_7e7544"
     >
       <div
-        class="_container_740b7c"
+        class="_container_5fb49a"
       >
         <img
           alt="A Fake Title"
@@ -27,7 +27,7 @@ exports[`Featured > renders correctly 1`] = `
           <p>
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-location-pin fa-1x "
+              class="svg-inline--fa fa-location-pin "
               data-icon="location-pin"
               data-prefix="fas"
               focusable="false"

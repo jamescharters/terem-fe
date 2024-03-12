@@ -3,7 +3,7 @@
 exports[`PopularItem > renders the component 1`] = `
 <DocumentFragment>
   <div
-    class="_container_0cedfc"
+    class="_container_5fb49a _popular_0cedfc"
   >
     <img
       alt="A Fake Title"

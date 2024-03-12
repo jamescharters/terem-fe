@@ -1,10 +1,6 @@
 @import "@/brand/layout";
 
-.container {
-    background-size: cover;
-    border: 1px solid var(--terem-background);
-    display: flex;
-    flex-direction: column;
+.popular {
     flex: 0 0 350px;
 
     @media screen and (max-width: $breakpoint-md) {
@@ -12,28 +8,6 @@
     }
 
     img {
-        flex: 1;
-        object-fit: cover;
         max-height: 200px;
-        overflow-clip-margin: unset; /* To reduce scaling artifacts from object-fit */
-    }
-
-    div {
-        align-self: stretch;
-        background-color: var(--terem-background);
-        padding: 0.5rem;
-
-        h4 {
-            color: var(--terem-font-primary);
-            font-size: 0.8rem;
-        }
-
-        p {
-            color: var(--terem-font-secondary);
-            font-size: 0.75rem;
-            span {
-                margin-left: 0.25rem;
-            }
-        }
     }
 }
