@@ -9,7 +9,7 @@ import Popular from "@/components/popular/Popular";
 
 export const Component: React.FC<React.PropsWithChildren> = () => {
     const { featured, popular } = useLoaderData() as IndexLoaderDataType;
-    const [searchResults, setSearchResults] = useState<TileItem[]>([]);
+    const [searchResults, setSearchResults] = useState<TileItem[]>(popular);
 
     const onSearchChange = useCallback(
         (queryText: string) => {
