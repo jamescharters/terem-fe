@@ -44,7 +44,7 @@ export const Featured: React.FC<FeaturedProps> = (props) => {
     }, [emblaApi, props.items]);
 
     return (
-        <section className={Styles.container}>
+        <section className={Styles.container} data-testid="section-popular">
             <h3 data-testid="heading-popular-items">Popular around you</h3>
             {props.items.length === 0 ? (
                 <p>Sorry, no items matched your search.</p>
